@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open+Sans', sans-serif;
+}
+
+section{
+    padding : 2rem 9%;
+    height: 800px;
+}
+
+header{
+    width: 100%;
+    height: 450px;
+    background-image: url(../image/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: 81% 100%;
+    background-position: center;
+    background-color: black;
+    position: relative;
+    z-index: 0;
+}
+
+.banner{
+    color: white;
+    width: 100%;
+    height: 45px;
+    /*border-bottom: 1px double;*/
+    position: absolute;
+    top: 0%;
+}
+
+header .banner ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header .banner ul li{
+    margin: 0% 80px;
+    font-weight: bold;
+}
+
+header .banner ul li i{
+    margin: 0% 20px;
+}
+
+.info{
+    text-align: center;
+    align-items: center;
+}
+
+.info h2{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    /*text-align: center;*/
+}
+
+.info h1{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    /*text-align: center;*/
+}
+
+.info button{
+    padding: 5px 20px;
+    border-radius: 8px;
+    border:1px green solid ;
+    color: green;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: whitesmoke;
+    margin-top: 180px;
+    /*align-items: center;*/
+}
+
+.info button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.info button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;  
+}
+
+.info button:hover span{
+    padding-right: 25px;
+}
+
+.info button:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+header .banner ul li a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height: 100px;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    padding: 8px 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo nav{
+    display: flex;
+    justify-content: end;
+}
+
+.logo nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    float: right;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo img{
+    position: relative;
+    Left: -30px;
+}
+
+.info1{
+    border: greenyellow solid;
+    display: inline-block;
+    margin-bottom: 43px;
+}
+
+.info1 img{
+    float: left;
+    object-fit: contain;
+    width: 21%;
+    margin-right: 15px;
+}
+
+.explain h2{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0%;
+    padding-bottom: 20px;
+}
+
+.explain p{
+    text-align: right;
+    margin-top: 0%;
+}
+
+.explain button{
+    padding: 7px;
+    background-color:green;
+    color: white;
+    border-radius: 5px green solid;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+.explain button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.explain button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;  
+}
+
+.explain button:hover span{
+    padding-right: 25px;
+}
+
+.explain button:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+footer{
+    background-color: black;
+    height: 500px;
+}
+
+footer .down-class{
+    background-color: green;
+    height: 150px;
+    display: flex;
+}
+
+.info3{
+    width: 25%;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    font-size: 15px;
+    margin-left: 10%;
+    padding-top: 45px;
+    margin-right: 60px;
+}
+
+.time-show{
+    width: 55%;
+}
+
+.time-show ul{
+    display: flex;
+}
+
+.time-show ul li{
+    padding: 2px 10px;
+    border-right: 1.5px whitesmoke solid;
+    color: whitesmoke;
+    text-align: center;
+    list-style: none;
+}
+
+.info4{
+    text-align: left;
+    padding: 60px;
+}
+
+.info4 h3{
+    color: whitesmoke;
+}
+
+.info4 p{
+    color: white;
+}
+
+.below-info-left{
+    width: 35%;
+    display: inline-block;
+    height: 210px;
+}
+
+.below-info-mid{
+    width: 20%;
+    display: inline-block;
+    height: 210px;
+}
+
+.below-info-right{
+    width: 25%;
+    display: inline-block;
+    height: 210px;
+}
+
+.below-info-right input{
+    padding: 8px;
+    border: 2px green solid;
+    border-radius: 5px;
+}
+
+.below-info-right button{
+    padding: 8px;
+    font-size: 18px;
+    background-color: green;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+}
+
+.small{
+    color: black;
+    display: flex;
+    margin-top: 2px;
+    position: relative;
+    top: -20px;
+}
+
+
+
